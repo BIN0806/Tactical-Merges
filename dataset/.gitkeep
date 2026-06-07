@@ -1,0 +1,5 @@
+# Dataset root. Subfolders are created at runtime by tools/data_collector.py:
+#   raw_cells/   - raw board-cell crops awaiting labeling
+#   raw_shop/    - raw shop-slot crops awaiting labeling
+#   labeled/     - sorted crops: labeled/<unit>_<star>/  (training set)
+# calibration.json is also written here by `data_collector.py calibrate`.

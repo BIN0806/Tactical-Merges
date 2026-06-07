@@ -1,0 +1,19 @@
+# Deep learning / RL
+torch>=2.0.0
+ray[rllib]>=2.9.0
+
+# Environment standards
+gymnasium>=0.29.0
+pettingzoo>=1.24.0
+
+# iOS automation (no adb/scrcpy on iOS)
+facebook-wda>=1.4.6
+
+# Computer vision / screen capture
+opencv-python>=4.8.0
+mss>=9.0.1
+pillow>=10.0.0
+numpy>=1.24.0
+
+# torchvision provides the MobileNetV3 backbone
+torchvision>=0.15.0
